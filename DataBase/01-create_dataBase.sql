@@ -1,0 +1,1 @@
+create database test; -- test el nombre de la base de datos que puede ser cualquiera

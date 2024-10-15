@@ -1,0 +1,2 @@
+select max(age) from users; -- aqui no se puede concatenar con otras columnas, ejm select max(age), name from users;
+select min(age) from users; -- aqui no se puede concatenar con otras columnas, ejm select min(age), name from users;
