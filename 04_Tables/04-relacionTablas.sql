@@ -42,3 +42,15 @@ foreign key(user_id) references users (user_id),
 foreign key(language_id) references languages (language_id),
 unique(user_id,language_id)
 );
+
+#INSERT
+insert into dni (dni_number,user_id ) values(11111111,1)
+insert into dni (dni_number,user_id ) values(22222222,2)
+insert into dni (dni_number,user_id ) values(33333333,3);
+insert into dni (dni_number) values(44444444)
+
+#UPDATE actualizamos la tabla de usuario en el campo company
+update users set company_id = 1 where user_id =1;
+update users set company_id = 2 where user_id =3;
+update users set company_id = 3 where user_id =4;
+update users set company_id = 1 where user_id =7
