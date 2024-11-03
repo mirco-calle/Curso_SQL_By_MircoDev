@@ -23,3 +23,21 @@ case
 	else "ES MENOR"
  end as "es mayor de edad?"
  from users;
+
+ /*
+ La expresión CASE de SQL
+La CASEexpresión pasa por las condiciones y devuelve un valor cuando se cumple 
+la primera condición (como una declaración if-then-else). Por lo tanto, 
+una vez que una condición es verdadera, dejará de leer y devolverá el resultado.
+ Si no se cumple ninguna condición, devuelve el valor de la ELSEcláusula.
+
+Si no hay ninguna ELSEparte y ninguna condición es verdadera, devuelve NULL.
+ */
+
+--  Sintaxis CASE
+CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    WHEN conditionN THEN resultN
+    ELSE result
+END;
